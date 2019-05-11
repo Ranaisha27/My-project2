@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WELCOME</title>
+	<style>
+	html,body
+	{
+		margin:0;
+		padding:0;
+		width:100%;
+		height:100%;
+	}
+	.b1
+	{
+		width:100%;
+		height:100%;
+		margin:auto;
+		background:url(images/welcome1.jpg)no-repeat;
+		top:0;
+		display:table;
+		background-size:cover;
+		opacity:0.9;
+
+	}
+	.b1 .in1{
+		display:table-cell;
+		vertical-align: middle;
+		width:100%;
+		max-width:none; 
+	}
+	.content{
+		max-width:500px;
+		margin:auto;
+		text-align:center;
+	}
+	.content h1
+	{
+		font-family:'Century Gothic',sans-serif;
+		color:#f9f3f4;
+		font-size:500%;
+		text-shadow:0 0 300px #000;
+	}
+	.content .btn
+	{
+		border-radius:9px;
+		color:#f9f3f4;
+		text-decoration: none;
+		font-family:'Century Gothic',sans-serif;
+		border:3px solid;
+		padding:7px 13px;
+		font-weight: bold;
+opacity:0.7;
+
+
+		
+
+	}
+	.content .btn:hover
+	{
+		
+	background:#60adde;
+	
+	color:#fff;
+	cursor:pointer;
+
+
+	}
+</style>
+
+1
+<script>
+$(document).ready(function(){
+ 
+  $("#div3").fadeIn("slow", 0.15);
+  });
+
+</script>
+
+</head>
+<body>
+
+<section class="b1">
+	<div class="in1">
+		<div class="content">
+			<div id="div3" >
+			<h1>CONTACT ADMIN FOR PASSWORD</h1>
+		</div>
+			<a class="btn" href="login.jsp">BACK</a>
+		</div>
+	</div>
+</section>
+</body>
+</html>
